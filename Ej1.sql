@@ -30,8 +30,8 @@ SELECT CASE WHEN ( VALUE > 0 ) THEN (VALUE * -1) ELSE (VALUE * -1) END AS VALUE 
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Numeros;
 
 

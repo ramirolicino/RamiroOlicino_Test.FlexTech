@@ -44,6 +44,10 @@ EXECUTE cantidad 21;
 
 
 
-GO
+
 --Elimina la tabla
+GO
 DROP TABLE Personas;
+
+GO
+DROP PROCEDURE cantidad

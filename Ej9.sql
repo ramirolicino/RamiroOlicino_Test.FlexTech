@@ -36,6 +36,6 @@ SELECT p.AGE
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Personas;

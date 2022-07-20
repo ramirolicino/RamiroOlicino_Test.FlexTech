@@ -32,6 +32,6 @@ SELECT CONCAT('¡Hola',' ',p.NAME, CONCAT('! ', ' ','¿Cómo estás hoy?') ) AS SALU
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Personas;

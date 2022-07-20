@@ -59,7 +59,9 @@ SELECT p.ID, p.NAME, p.AGE, f.FVTO
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP TABLE Personas;
+GO
 DROP TABLE Fecha;
+

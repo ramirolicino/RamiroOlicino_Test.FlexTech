@@ -20,12 +20,15 @@ CREATE TABLE [FlexTech_DB].dbo.Fecha
 	PRIMARY KEY(ID)
 )
 
+--Creo la relacion entre las tablas
 GO 
 ALTER TABLE Personas ADD CONSTRAINT FK_Personas_Fecha
 					 FOREIGN KEY (ID_FECHA) REFERENCES Fecha(ID); 
 
 
 
+
+--Carga de registros
 GO
 INSERT INTO Fecha(ID, FVTO)
 VALUES
@@ -35,7 +38,6 @@ VALUES
 (6,'15/6/28');
 
 GO
---Carga de registros
 INSERT INTO Personas(ID, ID_FECHA,NAME, AGE)
 VALUES
 (1, 1,'Bob', 21),
@@ -55,6 +57,7 @@ SELECT * FROM Fecha
 
 -- Ej15 --
 
+--Creo procedimiento
 GO
 CREATE PROCEDURE PersonaDelete
 
@@ -71,6 +74,7 @@ BEGIN
  
 END
 
+
 GO
 EXECUTE PersonaDelete 1;
 
@@ -79,7 +83,12 @@ SELECT * FROM Personas;
 GO
 SELECT * FROM Fecha
 
-GO
+
+
 --Elimina la tabla
+GO
 DROP TABLE Personas;
+GO
 DROP TABLE Fecha;
+GO
+DROP PROCEDURE PersonaDelete;

@@ -35,6 +35,6 @@ SELECT *
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Personas;

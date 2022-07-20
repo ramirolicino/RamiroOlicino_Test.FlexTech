@@ -35,6 +35,6 @@ SELECT TOP 5 *
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Productos;

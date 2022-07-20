@@ -32,6 +32,6 @@ SELECT * FROM Divisiones
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Divisiones;

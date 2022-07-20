@@ -30,6 +30,6 @@ SELECT *, (YEAR + 99) / 100 AS "SIGLO" FROM Siglo;
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Siglo;

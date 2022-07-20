@@ -33,6 +33,6 @@ SELECT	p.AGE ,COUNT(*) AS COUNT
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Personas;

@@ -36,6 +36,6 @@ SELECT SUM(p.AGE) AS SumaEdades
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Personas;

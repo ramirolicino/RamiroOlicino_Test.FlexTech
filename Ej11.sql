@@ -60,7 +60,8 @@ SELECT ps.ID, pa.DESCRIPCION AS DESNAC, ps.NAME, ps.AGE
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP TABLE Personas;
+GO
 DROP TABLE Pais;

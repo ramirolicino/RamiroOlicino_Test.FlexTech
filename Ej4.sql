@@ -30,6 +30,6 @@ SELECT *, CASE WHEN ( VALUE % 2 = 0 ) THEN ('PAR') ELSE ('IMPAR') END AS VALOR F
 
 
 
-GO
 --Elimina la tabla
+GO
 DROP  TABLE Numeros;
