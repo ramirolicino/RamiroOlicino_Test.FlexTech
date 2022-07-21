@@ -57,7 +57,7 @@ SELECT * FROM Fecha
 
 -- Ej15 --
 
---Creo procedimiento
+--Creo procedimiento, LA indicar el numero del parametro, determina que registro se va a eliminar, retornanado 0 si es posible o -1 si da error
 GO
 CREATE PROCEDURE PersonaDelete
 

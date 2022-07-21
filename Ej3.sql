@@ -24,6 +24,8 @@ SELECT * FROM Siglo;
 
 -- Ej3 --
 
+
+--El calculo realizado retorna el siglo del año
 SELECT *, (YEAR + 99) / 100 AS "SIGLO" FROM Siglo;
 		
 

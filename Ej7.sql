@@ -29,6 +29,7 @@ SELECT * FROM Productos;
 
 -- Ej7 --
 
+--Ordeno de mayor a menor las cantidades y muestro el top 5 
 SELECT TOP 5 *
 	FROM Productos 
 	ORDER  BY AMOUNT_SOLD DESC;

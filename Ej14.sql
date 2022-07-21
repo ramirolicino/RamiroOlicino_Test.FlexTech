@@ -3,7 +3,7 @@ USE [FlexTech_DB];
 -- Ej14 --
 
 
---Creo procedimiento
+--Creo procedimiento, Utilizando DATENAME() se ingresa la fecha y retorna el dia en string 
 GO
 CREATE PROCEDURE semana
   @fecha DATE = NULL

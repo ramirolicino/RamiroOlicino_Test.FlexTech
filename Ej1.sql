@@ -26,6 +26,7 @@ SELECT * FROM Numeros;
 
 -- Ej1 --
 
+--Se resolvio estableciendo que cuando un valor es mayor a 0 significa q es positivo, por ende se lo multiplica por -1 y asi logro retornar el mismo valor pero en negativo y a suv de la misma manera para los negativos.
 SELECT CASE WHEN ( VALUE > 0 ) THEN (VALUE * -1) ELSE (VALUE * -1) END AS VALUE FROM Numeros;
 
 

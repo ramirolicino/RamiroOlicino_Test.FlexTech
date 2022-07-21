@@ -29,6 +29,8 @@ SELECT * FROM Personas;
 
 -- Ej8 --
 
+
+--Muestro los registros que no implementan los paises elegidos, utilizando NOT LIKE
 SELECT * 
 	FROM Personas
 	WHERE COUNTRY NOT LIKE 'United States' AND COUNTRY NOT LIKE 'Canada';

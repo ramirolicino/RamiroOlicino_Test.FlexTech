@@ -52,6 +52,8 @@ GO
 SELECT * FROM Fecha
 
 -- Ej12 --
+
+--Determino que los registros que no poseen id_fecha son null, asi poder mostrar los activos
 SELECT p.ID, p.NAME, p.AGE, f.FVTO
 	FROM Personas p
 	INNER JOIN Fecha f ON p.ID_FECHA = f.ID;

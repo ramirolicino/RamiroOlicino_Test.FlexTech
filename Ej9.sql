@@ -27,6 +27,8 @@ SELECT * FROM Personas;
 
 -- Ej9 --
 
+
+--Se muestra unicamente las edades individuales agrupandolas
 SELECT p.AGE
 	FROM Personas p
 	GROUP BY p.AGE

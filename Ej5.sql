@@ -27,6 +27,8 @@ SELECT * FROM Personas;
 
 -- Ej5 --
 
+
+--Agrupo las edades y determino la cantidad de cada una de ellas, utilizando COUNT()
 SELECT	p.AGE ,COUNT(*) AS COUNT
 	FROM Personas p
 	GROUP BY p.AGE

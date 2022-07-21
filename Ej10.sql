@@ -27,6 +27,8 @@ SELECT * FROM Personas;
 
 -- Ej10 --
 
+
+--Utilizando SUM(), muestro el total de las edades
 SELECT SUM(p.AGE) AS SumaEdades
 	FROM Personas p
 

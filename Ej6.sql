@@ -26,6 +26,7 @@ SELECT * FROM Personas;
 
 -- Ej6 --
 
+--Concateno el texto predeeterminado con los nombres del registro
 SELECT CONCAT('¡Hola',' ',p.NAME, CONCAT('! ', ' ','¿Cómo estás hoy?') ) AS SALUDO
 	FROM Personas p
 	GROUP BY p.NAME

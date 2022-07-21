@@ -54,6 +54,8 @@ SELECT * FROM Pais
 
 -- Ej11 --
 
+
+--Utilizo el INNER JOIN para relacionar ambas tablas y obtener la descripcion del pais, asi remplazarla por el id_Nac
 SELECT ps.ID, pa.DESCRIPCION AS DESNAC, ps.NAME, ps.AGE
 	FROM Personas ps
 	INNER JOIN Pais pa ON ps.ID_NAC = pa.ID;

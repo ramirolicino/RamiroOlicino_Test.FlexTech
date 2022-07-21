@@ -29,6 +29,8 @@ SELECT * FROM Personas;
 
 
 -- Ej13 --
+
+--Creacion procedimiento, ingresas por parametro la edad y retorna la cantidad de personas con esa edad 
 GO
 CREATE PROCEDURE cantidad
   @edad INT = 0
